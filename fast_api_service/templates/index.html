@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Main page!</title>
+    </head>
+    <body>
+        <h3> Predict car prices </h3>
+
+        <form action="/predict_csv" method="post" enctype="multipart/form-data">
+
+            <b>Attach a file:</b> <br>
+            <input type="file" name="data_file"> <br><br>
+            <button type="submit"><b>Get csv file with prediction!</b></button>
+        </form>
+    </body>
+</html>
